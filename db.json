@@ -1,0 +1,36 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "name": "José Batista Nardi Silva",
+      "cpf": "33692477040",
+      "birthday_date": "1962-05-01",
+      "email": "jose@gmail.com",
+      "picture": "https://media.istockphoto.com/photos/taiwan-businessman-picture-id623604452?k=20&m=623604452&s=612x612&w=0&h=N2aGdYTYOfWXcR8toT1pITq9NLkPvzi8hyi1FGahmgs="
+    },
+    {
+      "id": 3,
+      "name": "Bruno Marino",
+      "cpf": "91659098017",
+      "birthday_date": "1990-05-21",
+      "email": "bruno.marino@senai.sc.br",
+      "picture": "https://images.everydayhealth.com/images/mens-health/6-skincare-tips-men-should-always-follow-peter-kraus-00-722x406.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Denise Gatti",
+      "cpf": "29496592090",
+      "birthday_date": "1984-04-07",
+      "email": "denise.gatti@senai.sc.br",
+      "picture": "https://media.istockphoto.com/photos/mature-beautiful-woman-with-red-hair-picture-id1221755378?k=20&m=1221755378&s=612x612&w=0&h=rZkb0wrSR4-Qfl-MIDbD8_2L_V2KYWOf0P_EqUveAAA="
+    },
+    {
+      "name": "Fernanda Bueno",
+      "picture": "https://nationaltoday.com/wp-content/uploads/2021/09/American-Business-Womens-Day-640x514.jpg",
+      "cpf": "90997611049",
+      "email": "fernanda@microsoft.com",
+      "birthday_date": "1987-06-07",
+      "id": 6
+    }
+  ]
+}

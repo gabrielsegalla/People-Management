@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Col, Container, Row} from 'reactstrap';
+import PeopleManagement from './components/people-management';
+import AppNavbar from './components/navbar';
 
-function App() {
+const App = ()=> {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <AppNavbar></AppNavbar>
+      <Container>
+        <Row>
+          <Col sm="12">
+            <PeopleManagement></PeopleManagement>
+          </Col>
+        </Row>
+      </Container>
+        
+    </>
   );
 }
 
